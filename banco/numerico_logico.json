@@ -1,0 +1,974 @@
+[
+  {
+    "id": "n01",
+    "area": "numerico",
+    "subtype": "operaciones",
+    "difficulty": "facil",
+    "prompt": "Una planta concentradora produce <b>1 250 t</b> de concentrado de cobre por día. ¿Cuántas toneladas produce en <b>24 días</b>?",
+    "options": [
+      "30 000 t",
+      "28 000 t",
+      "32 500 t",
+      "29 500 t"
+    ],
+    "answer": 0,
+    "explanation": "1 250 × 24 = 30 000 t."
+  },
+  {
+    "id": "n02",
+    "area": "numerico",
+    "subtype": "operaciones",
+    "difficulty": "facil",
+    "prompt": "Tres camiones de <b>240 t</b> de capacidad cada uno realizan <b>7 viajes</b> por turno a plena carga. ¿Cuántas toneladas transportan en total en un turno?",
+    "options": [
+      "1 680 t",
+      "4 800 t",
+      "5 040 t",
+      "5 280 t"
+    ],
+    "answer": 2,
+    "explanation": "3 × 240 = 720 t por ronda; 720 × 7 = 5 040 t."
+  },
+  {
+    "id": "n03",
+    "area": "numerico",
+    "subtype": "operaciones",
+    "difficulty": "facil",
+    "prompt": "Calcule: <b>18 ÷ 3 × 2 + 4² − 5 × (6 − 2)</b>",
+    "options": [
+      "8",
+      "3",
+      "28",
+      "−8"
+    ],
+    "answer": 0,
+    "explanation": "Paréntesis: 6 − 2 = 4. Potencia: 4² = 16. De izquierda a derecha: 18 ÷ 3 = 6; 6 × 2 = 12; 5 × 4 = 20. Luego 12 + 16 − 20 = 8."
+  },
+  {
+    "id": "n04",
+    "area": "numerico",
+    "subtype": "operaciones",
+    "difficulty": "media",
+    "prompt": "Un tanque de agua de proceso contiene <b>84 000 L</b>. Se extraen <b>3 500 L/h</b> y, al mismo tiempo, ingresan <b>1 400 L/h</b>. ¿En cuántas horas se vacía el tanque?",
+    "options": [
+      "24 h",
+      "40 h",
+      "60 h",
+      "17 h"
+    ],
+    "answer": 1,
+    "explanation": "Salida neta = 3 500 − 1 400 = 2 100 L/h. Tiempo = 84 000 ÷ 2 100 = 40 h."
+  },
+  {
+    "id": "n05",
+    "area": "numerico",
+    "subtype": "operaciones",
+    "difficulty": "dificil",
+    "prompt": "Calcule: <b>(0,25 + 1/8) ÷ 0,375 × 2³ − √144</b>",
+    "options": [
+      "4",
+      "0",
+      "−11",
+      "20",
+      "−4"
+    ],
+    "answer": 4,
+    "explanation": "0,25 + 0,125 = 0,375; 0,375 ÷ 0,375 = 1; 1 × 8 = 8; √144 = 12; 8 − 12 = −4."
+  },
+  {
+    "id": "n06",
+    "area": "numerico",
+    "subtype": "porcentajes",
+    "difficulty": "facil",
+    "prompt": "La producción trimestral de cátodos fue de <b>80 000 t</b>. Si el siguiente trimestre aumenta en <b>15 %</b>, ¿cuál será la nueva producción?",
+    "options": [
+      "95 000 t",
+      "88 000 t",
+      "12 000 t",
+      "92 000 t"
+    ],
+    "answer": 3,
+    "explanation": "15 % de 80 000 = 12 000. Nueva producción = 80 000 + 12 000 = 92 000 t."
+  },
+  {
+    "id": "n07",
+    "area": "numerico",
+    "subtype": "porcentajes",
+    "difficulty": "facil",
+    "prompt": "De los <b>1 200</b> trabajadores de una operación, el <b>35 %</b> labora en el turno noche. ¿Cuántos trabajadores hay en el turno noche?",
+    "options": [
+      "350",
+      "380",
+      "780",
+      "420"
+    ],
+    "answer": 3,
+    "explanation": "0,35 × 1 200 = 420 trabajadores."
+  },
+  {
+    "id": "n08",
+    "area": "numerico",
+    "subtype": "porcentajes",
+    "difficulty": "media",
+    "prompt": "El precio de un insumo sube <b>20 %</b> en enero y luego baja <b>20 %</b> en febrero. Respecto al precio inicial, el precio final:",
+    "options": [
+      "No varió",
+      "Aumentó 4 %",
+      "Disminuyó 2 %",
+      "Disminuyó 20 %",
+      "Disminuyó 4 %"
+    ],
+    "answer": 4,
+    "explanation": "Factor total = 1,20 × 0,80 = 0,96, es decir, una disminución de 4 %."
+  },
+  {
+    "id": "n09",
+    "area": "numerico",
+    "subtype": "porcentajes",
+    "difficulty": "media",
+    "prompt": "Un mineral tiene una ley de <b>0,45 % de cobre</b>. ¿Cuántas toneladas de cobre contienen <b>120 000 t</b> de mineral?",
+    "options": [
+      "5 400 t",
+      "54 t",
+      "450 t",
+      "540 t"
+    ],
+    "answer": 3,
+    "explanation": "0,45 % = 0,0045. 120 000 × 0,0045 = 540 t de cobre."
+  },
+  {
+    "id": "n10",
+    "area": "numerico",
+    "subtype": "porcentajes",
+    "difficulty": "facil",
+    "prompt": "El consumo diario de agua fresca bajó de <b>2 500 m³</b> a <b>2 150 m³</b> gracias a la recirculación. ¿En qué porcentaje se redujo?",
+    "options": [
+      "35 %",
+      "14 %",
+      "16,3 %",
+      "12 %"
+    ],
+    "answer": 1,
+    "explanation": "Reducción = 2 500 − 2 150 = 350 m³. 350 ÷ 2 500 = 0,14 = 14 %."
+  },
+  {
+    "id": "n11",
+    "area": "numerico",
+    "subtype": "porcentajes",
+    "difficulty": "dificil",
+    "prompt": "Se desea obtener <b>396 t</b> de cobre fino. El mineral tiene una ley de <b>0,5 % Cu</b> y la recuperación metalúrgica de la planta es de <b>88 %</b>. ¿Cuántas toneladas de mineral se deben procesar?",
+    "options": [
+      "90 000 t",
+      "79 200 t",
+      "87 120 t",
+      "100 000 t",
+      "45 000 t"
+    ],
+    "answer": 0,
+    "explanation": "Cobre recuperado por tonelada = 0,005 × 0,88 = 0,0044 t. Mineral = 396 ÷ 0,0044 = 90 000 t."
+  },
+  {
+    "id": "n12",
+    "area": "numerico",
+    "subtype": "regla_de_tres",
+    "difficulty": "facil",
+    "prompt": "Si <b>4 camiones</b> transportan <b>1 800 t</b> de mineral en un turno, ¿cuántas toneladas transportarán <b>7 camiones</b> iguales en el mismo turno?",
+    "options": [
+      "3 150 t",
+      "3 600 t",
+      "2 700 t",
+      "1 029 t"
+    ],
+    "answer": 0,
+    "explanation": "Regla de tres directa: 1 800 × 7 ÷ 4 = 3 150 t."
+  },
+  {
+    "id": "n13",
+    "area": "numerico",
+    "subtype": "regla_de_tres",
+    "difficulty": "facil",
+    "prompt": "<b>6 técnicos</b> realizan el mantenimiento de una faja en <b>15 días</b>. ¿En cuántos días lo harían <b>9 técnicos</b> con el mismo rendimiento?",
+    "options": [
+      "10 días",
+      "22,5 días",
+      "12 días",
+      "9 días"
+    ],
+    "answer": 0,
+    "explanation": "Regla de tres inversa: 6 × 15 ÷ 9 = 10 días."
+  },
+  {
+    "id": "n14",
+    "area": "numerico",
+    "subtype": "regla_de_tres",
+    "difficulty": "media",
+    "prompt": "<b>8 perforadoras</b>, trabajando <b>6 h/día</b> durante <b>5 días</b>, perforan <b>480 taladros</b>. ¿Cuántos taladros perforarán <b>10 perforadoras</b>, trabajando <b>8 h/día</b> durante <b>4 días</b>?",
+    "options": [
+      "600",
+      "512",
+      "640",
+      "720",
+      "480"
+    ],
+    "answer": 2,
+    "explanation": "Todas las magnitudes son directamente proporcionales a los taladros: 480 × (10/8) × (8/6) × (4/5) = 640."
+  },
+  {
+    "id": "n15",
+    "area": "numerico",
+    "subtype": "regla_de_tres",
+    "difficulty": "media",
+    "prompt": "Una faja transportadora traslada <b>2 700 t</b> en <b>45 minutos</b>. A ritmo constante, ¿cuántas toneladas traslada en <b>2 h 20 min</b>?",
+    "options": [
+      "8 400 t",
+      "6 300 t",
+      "7 200 t",
+      "8 100 t"
+    ],
+    "answer": 0,
+    "explanation": "2 h 20 min = 140 min. 2 700 ÷ 45 = 60 t/min. 60 × 140 = 8 400 t."
+  },
+  {
+    "id": "n16",
+    "area": "numerico",
+    "subtype": "regla_de_tres",
+    "difficulty": "dificil",
+    "prompt": "<b>12 obreros</b>, trabajando <b>8 h/día</b>, construyen <b>60 m</b> de canal de relaves en <b>10 días</b>. ¿Cuántos días necesitarán <b>16 obreros</b>, trabajando <b>6 h/día</b>, para construir <b>90 m</b> del mismo canal?",
+    "options": [
+      "10 días",
+      "11,25 días",
+      "20 días",
+      "15 días",
+      "13,5 días"
+    ],
+    "answer": 3,
+    "explanation": "Días = 10 × (12/16) × (8/6) × (90/60). Más obreros → menos días (inversa); menos horas → más días (inversa); más metros → más días (directa). 10 × 0,75 × 4/3 × 1,5 = 15 días."
+  },
+  {
+    "id": "n17",
+    "area": "numerico",
+    "subtype": "fracciones_proporciones",
+    "difficulty": "facil",
+    "prompt": "De un lote de <b>6 400 t</b> de concentrado, los <b>3/8</b> se destinan a exportación. ¿Cuántas toneladas se exportan?",
+    "options": [
+      "2 400 t",
+      "4 000 t",
+      "1 600 t",
+      "2 133 t"
+    ],
+    "answer": 0,
+    "explanation": "6 400 ÷ 8 = 800; 800 × 3 = 2 400 t."
+  },
+  {
+    "id": "n18",
+    "area": "numerico",
+    "subtype": "fracciones_proporciones",
+    "difficulty": "media",
+    "prompt": "De la producción mensual de concentrado, <b>2/5</b> se embarca por el puerto; de lo que queda, <b>1/3</b> se envía a una refinería y el resto, <b>36 000 t</b>, se almacena. ¿Cuál fue la producción mensual?",
+    "options": [
+      "60 000 t",
+      "108 000 t",
+      "72 000 t",
+      "90 000 t"
+    ],
+    "answer": 3,
+    "explanation": "Tras embarcar quedan 3/5 P. Se envía 1/3 de eso y queda 2/3 × 3/5 P = 2/5 P = 36 000 → P = 90 000 t."
+  },
+  {
+    "id": "n19",
+    "area": "numerico",
+    "subtype": "fracciones_proporciones",
+    "difficulty": "facil",
+    "prompt": "En una solución de lixiviación, el agua y el reactivo están en razón <b>7 : 2</b>. Si se preparan <b>1 350 L</b> de solución, ¿cuántos litros son de reactivo?",
+    "options": [
+      "385 L",
+      "1 050 L",
+      "300 L",
+      "270 L"
+    ],
+    "answer": 2,
+    "explanation": "Partes totales = 7 + 2 = 9. 1 350 ÷ 9 = 150 L por parte. Reactivo = 2 × 150 = 300 L."
+  },
+  {
+    "id": "n20",
+    "area": "numerico",
+    "subtype": "fracciones_proporciones",
+    "difficulty": "dificil",
+    "prompt": "Un bono de <b>S/ 7 200</b> se reparte entre tres cuadrillas en forma <b>directamente proporcional</b> a 2, 3 y 4 e <b>inversamente proporcional</b> a 1, 3 y 2, respectivamente. ¿Cuánto recibe la segunda cuadrilla?",
+    "options": [
+      "S/ 2 400",
+      "S/ 1 440",
+      "S/ 2 880",
+      "S/ 1 800",
+      "S/ 960"
+    ],
+    "answer": 1,
+    "explanation": "Índices: 2/1 = 2; 3/3 = 1; 4/2 = 2. Suma = 5. Cada unidad = 7 200 ÷ 5 = 1 440. La segunda recibe 1 × 1 440 = S/ 1 440."
+  },
+  {
+    "id": "n21",
+    "area": "numerico",
+    "subtype": "problemas",
+    "difficulty": "facil",
+    "prompt": "Un supervisor tiene el triple de la edad de su hijo. Dentro de <b>12 años</b> tendrá el doble de la edad que tenga su hijo. ¿Qué edad tiene hoy el supervisor?",
+    "options": [
+      "24 años",
+      "48 años",
+      "42 años",
+      "36 años"
+    ],
+    "answer": 3,
+    "explanation": "Hijo = x, supervisor = 3x. 3x + 12 = 2(x + 12) → x = 12. Supervisor = 36 años."
+  },
+  {
+    "id": "n22",
+    "area": "numerico",
+    "subtype": "problemas",
+    "difficulty": "media",
+    "prompt": "La bomba A vacía una poza en <b>12 h</b> y la bomba B la vacía en <b>18 h</b>. Si ambas trabajan juntas, ¿en cuánto tiempo vacían la poza?",
+    "options": [
+      "15 h",
+      "7 h 30 min",
+      "7 h 12 min",
+      "6 h 48 min",
+      "8 h"
+    ],
+    "answer": 2,
+    "explanation": "Juntas: 1/12 + 1/18 = 5/36 de poza por hora. Tiempo = 36/5 = 7,2 h = 7 h 12 min."
+  },
+  {
+    "id": "n23",
+    "area": "numerico",
+    "subtype": "problemas",
+    "difficulty": "media",
+    "prompt": "Dos camionetas parten al mismo tiempo desde dos campamentos separados <b>99 km</b> y avanzan una hacia la otra a <b>30 km/h</b> y <b>36 km/h</b>. ¿En cuánto tiempo se encuentran?",
+    "options": [
+      "1 h 39 min",
+      "1 h 15 min",
+      "1 h 30 min",
+      "2 h",
+      "3 h 18 min"
+    ],
+    "answer": 2,
+    "explanation": "Velocidad de acercamiento = 30 + 36 = 66 km/h. Tiempo = 99 ÷ 66 = 1,5 h = 1 h 30 min."
+  },
+  {
+    "id": "n24",
+    "area": "numerico",
+    "subtype": "problemas",
+    "difficulty": "media",
+    "prompt": "Se mezclan <b>400 t</b> de mineral con ley <b>0,60 % Cu</b> y <b>600 t</b> de mineral con ley <b>0,35 % Cu</b>. ¿Cuál es la ley de la mezcla?",
+    "options": [
+      "0,475 % Cu",
+      "0,50 % Cu",
+      "0,45 % Cu",
+      "0,40 % Cu"
+    ],
+    "answer": 2,
+    "explanation": "Cobre: 400 × 0,006 = 2,4 t; 600 × 0,0035 = 2,1 t. Total 4,5 t en 1 000 t → 0,45 %."
+  },
+  {
+    "id": "n25",
+    "area": "numerico",
+    "subtype": "problemas",
+    "difficulty": "dificil",
+    "prompt": "Un camión sube cargado por una rampa a <b>20 km/h</b> y baja vacío por la misma rampa a <b>30 km/h</b>. ¿Cuál es su velocidad media en el viaje completo de ida y vuelta?",
+    "options": [
+      "25 km/h",
+      "26 km/h",
+      "22,5 km/h",
+      "24 km/h"
+    ],
+    "answer": 3,
+    "explanation": "Sea d la longitud. Tiempo = d/20 + d/30 = d/12. Velocidad media = 2d ÷ (d/12) = 24 km/h (media armónica)."
+  },
+  {
+    "id": "n26",
+    "area": "numerico",
+    "subtype": "problemas",
+    "difficulty": "media",
+    "prompt": "Los equipos A y B juntos terminan un trabajo en <b>8 días</b>; A solo lo terminaría en <b>12 días</b>. Trabajan juntos <b>3 días</b> y luego B termina solo el resto. ¿Cuántos días adicionales trabaja B?",
+    "options": [
+      "10 días",
+      "24 días",
+      "12 días",
+      "9 días",
+      "15 días"
+    ],
+    "answer": 4,
+    "explanation": "B solo: 1/8 − 1/12 = 1/24 por día. En 3 días juntos hacen 3/8; faltan 5/8. Días de B = (5/8) ÷ (1/24) = 15."
+  },
+  {
+    "id": "n27",
+    "area": "numerico",
+    "subtype": "interpretacion_tablas",
+    "difficulty": "facil",
+    "prompt": "<p>Producción de concentrado de cobre:</p><table><tr><th>Mes</th><th>Concentrado (t)</th></tr><tr><td>Enero</td><td>42 000</td></tr><tr><td>Febrero</td><td>38 500</td></tr><tr><td>Marzo</td><td>45 500</td></tr><tr><td>Abril</td><td>44 000</td></tr></table><p>¿Cuál fue la producción mensual promedio?</p>",
+    "options": [
+      "42 500 t",
+      "42 000 t",
+      "43 000 t",
+      "44 000 t"
+    ],
+    "answer": 0,
+    "explanation": "Total = 42 000 + 38 500 + 45 500 + 44 000 = 170 000 t. Promedio = 170 000 ÷ 4 = 42 500 t."
+  },
+  {
+    "id": "n28",
+    "area": "numerico",
+    "subtype": "interpretacion_tablas",
+    "difficulty": "media",
+    "prompt": "<p>Producción de concentrado de cobre:</p><table><tr><th>Mes</th><th>Concentrado (t)</th></tr><tr><td>Enero</td><td>42 000</td></tr><tr><td>Febrero</td><td>38 500</td></tr><tr><td>Marzo</td><td>45 500</td></tr><tr><td>Abril</td><td>44 000</td></tr></table><p>¿En qué porcentaje aproximado aumentó la producción de febrero a marzo?</p>",
+    "options": [
+      "15,4 %",
+      "7,0 %",
+      "18,2 %",
+      "20,0 %"
+    ],
+    "answer": 2,
+    "explanation": "Aumento = 45 500 − 38 500 = 7 000. 7 000 ÷ 38 500 ≈ 0,1818 → 18,2 %."
+  },
+  {
+    "id": "n29",
+    "area": "numerico",
+    "subtype": "interpretacion_tablas",
+    "difficulty": "media",
+    "prompt": "<p>Consumo de agua por turno en la concentradora:</p><table><tr><th>Turno</th><th>Agua consumida (m³)</th><th>Mineral procesado (t)</th></tr><tr><td>A</td><td>3 600</td><td>12 000</td></tr><tr><td>B</td><td>2 940</td><td>10 500</td></tr><tr><td>C</td><td>2 880</td><td>9 000</td></tr></table><p>¿Qué turno tuvo el <b>menor consumo de agua por tonelada</b> procesada?</p>",
+    "options": [
+      "Turno B",
+      "Turno A",
+      "Turno C",
+      "Los tres consumieron igual"
+    ],
+    "answer": 0,
+    "explanation": "A: 3 600/12 000 = 0,30 m³/t; B: 2 940/10 500 = 0,28 m³/t; C: 2 880/9 000 = 0,32 m³/t. El menor es el turno B."
+  },
+  {
+    "id": "n30",
+    "area": "numerico",
+    "subtype": "interpretacion_tablas",
+    "difficulty": "media",
+    "prompt": "<p>Horas registradas por la flota de acarreo en un mes:</p><table><tr><th>Camión</th><th>Horas programadas</th><th>Horas operativas</th></tr><tr><td>C-01</td><td>720</td><td>612</td></tr><tr><td>C-02</td><td>720</td><td>648</td></tr><tr><td>C-03</td><td>720</td><td>576</td></tr><tr><td>C-04</td><td>720</td><td>684</td></tr></table><p>La disponibilidad se calcula como horas operativas ÷ horas programadas. ¿Cuál es la disponibilidad de la flota completa?</p>",
+    "options": [
+      "85,0 %",
+      "90,0 %",
+      "87,5 %",
+      "88,5 %"
+    ],
+    "answer": 2,
+    "explanation": "Operativas = 612 + 648 + 576 + 684 = 2 520 h. Programadas = 4 × 720 = 2 880 h. 2 520 ÷ 2 880 = 0,875 = 87,5 %."
+  },
+  {
+    "id": "n31",
+    "area": "numerico",
+    "subtype": "interpretacion_tablas",
+    "difficulty": "dificil",
+    "prompt": "<p>Mineral enviado a la chancadora en una semana:</p><table><tr><th>Zona del tajo</th><th>Mineral (t)</th><th>Ley (% Cu)</th></tr><tr><td>Norte</td><td>50 000</td><td>0,40</td></tr><tr><td>Sur</td><td>30 000</td><td>0,60</td></tr><tr><td>Este</td><td>20 000</td><td>0,50</td></tr></table><p>¿Cuál es la ley promedio ponderada del mineral enviado?</p>",
+    "options": [
+      "0,50 % Cu",
+      "0,46 % Cu",
+      "0,48 % Cu",
+      "0,52 % Cu"
+    ],
+    "answer": 2,
+    "explanation": "Cobre contenido: 50 000 × 0,004 = 200 t; 30 000 × 0,006 = 180 t; 20 000 × 0,005 = 100 t. Total 480 t en 100 000 t → 0,48 %. (El promedio simple, 0,50 %, es incorrecto porque los tonelajes difieren.)"
+  },
+  {
+    "id": "n32",
+    "area": "numerico",
+    "subtype": "interpretacion_tablas",
+    "difficulty": "facil",
+    "prompt": "<p>Producción de concentrado de cobre:</p><table><tr><th>Mes</th><th>Concentrado (t)</th></tr><tr><td>Enero</td><td>42 000</td></tr><tr><td>Febrero</td><td>38 500</td></tr><tr><td>Marzo</td><td>45 500</td></tr><tr><td>Abril</td><td>44 000</td></tr></table><p>¿Cuál es la diferencia entre el mes de mayor y el de menor producción?</p>",
+    "options": [
+      "3 500 t",
+      "5 500 t",
+      "6 000 t",
+      "7 000 t"
+    ],
+    "answer": 3,
+    "explanation": "Mayor: marzo (45 500 t). Menor: febrero (38 500 t). Diferencia = 7 000 t."
+  },
+  {
+    "id": "l01",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "facil",
+    "prompt": "¿Qué número continúa la serie?<br><b>3, 7, 11, 15, 19, ...</b>",
+    "options": [
+      "21",
+      "23",
+      "24",
+      "25"
+    ],
+    "answer": 1,
+    "explanation": "Se suma 4 cada vez: 19 + 4 = 23."
+  },
+  {
+    "id": "l02",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "facil",
+    "prompt": "¿Qué número continúa la serie?<br><b>2, 6, 18, 54, ...</b>",
+    "options": [
+      "108",
+      "72",
+      "162",
+      "216"
+    ],
+    "answer": 2,
+    "explanation": "Cada término se multiplica por 3: 54 × 3 = 162."
+  },
+  {
+    "id": "l03",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "media",
+    "prompt": "¿Qué número continúa la serie?<br><b>2, 5, 10, 17, 26, ...</b>",
+    "options": [
+      "37",
+      "35",
+      "36",
+      "39"
+    ],
+    "answer": 0,
+    "explanation": "Cada término es n² + 1 (n = 1, 2, 3...): 6² + 1 = 37. También: diferencias 3, 5, 7, 9, 11."
+  },
+  {
+    "id": "l04",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "facil",
+    "prompt": "¿Qué número continúa la serie?<br><b>5, 6, 8, 11, 15, ...</b>",
+    "options": [
+      "19",
+      "21",
+      "20",
+      "18"
+    ],
+    "answer": 2,
+    "explanation": "Diferencias: +1, +2, +3, +4, +5. 15 + 5 = 20."
+  },
+  {
+    "id": "l05",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "media",
+    "prompt": "¿Qué número continúa la serie?<br><b>3, 4, 8, 17, 33, ...</b>",
+    "options": [
+      "49",
+      "56",
+      "58",
+      "66"
+    ],
+    "answer": 2,
+    "explanation": "Se suman cuadrados perfectos: +1, +4, +9, +16, +25. 33 + 25 = 58."
+  },
+  {
+    "id": "l06",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "facil",
+    "prompt": "¿Qué número continúa la serie?<br><b>2, 3, 5, 9, 17, ...</b>",
+    "options": [
+      "25",
+      "34",
+      "31",
+      "33"
+    ],
+    "answer": 3,
+    "explanation": "Diferencias: +1, +2, +4, +8, +16 (se duplican). 17 + 16 = 33."
+  },
+  {
+    "id": "l07",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "dificil",
+    "prompt": "¿Qué número continúa la serie?<br><b>4, 20, 8, 17, 16, 14, 32, ...</b>",
+    "options": [
+      "64",
+      "12",
+      "10",
+      "11"
+    ],
+    "answer": 3,
+    "explanation": "Son dos series intercaladas. Posiciones impares: 4, 8, 16, 32 (×2). Posiciones pares: 20, 17, 14, ... (−3). El término pedido es par: 14 − 3 = 11."
+  },
+  {
+    "id": "l08",
+    "area": "logico",
+    "subtype": "series_numericas",
+    "difficulty": "dificil",
+    "prompt": "¿Qué número continúa la serie?<br><b>2, 3, 7, 22, 89, ...</b>",
+    "options": [
+      "446",
+      "356",
+      "445",
+      "534",
+      "447"
+    ],
+    "answer": 0,
+    "explanation": "Regla: ×1 + 1, ×2 + 1, ×3 + 1, ×4 + 1, ×5 + 1. Entonces 89 × 5 + 1 = 446."
+  },
+  {
+    "id": "l09",
+    "area": "logico",
+    "subtype": "series_letras",
+    "difficulty": "facil",
+    "prompt": "¿Qué letra continúa la serie?<br><b>A, C, E, G, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "H",
+      "J",
+      "K",
+      "I"
+    ],
+    "answer": 3,
+    "explanation": "Se avanza de 2 en 2 (se salta una letra): A, C, E, G, I."
+  },
+  {
+    "id": "l10",
+    "area": "logico",
+    "subtype": "series_letras",
+    "difficulty": "facil",
+    "prompt": "¿Qué letra continúa la serie?<br><b>B, E, H, K, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "Ñ",
+      "M",
+      "O",
+      "N"
+    ],
+    "answer": 3,
+    "explanation": "Posiciones 2, 5, 8, 11 (+3). Sigue la posición 14: N."
+  },
+  {
+    "id": "l11",
+    "area": "logico",
+    "subtype": "series_letras",
+    "difficulty": "media",
+    "prompt": "¿Qué letra continúa la serie?<br><b>Z, X, U, Q, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "M",
+      "L",
+      "N",
+      "Ñ"
+    ],
+    "answer": 0,
+    "explanation": "Posiciones 27, 25, 22, 18: se resta 2, 3, 4 y luego 5. 18 − 5 = 13 → M."
+  },
+  {
+    "id": "l12",
+    "area": "logico",
+    "subtype": "series_letras",
+    "difficulty": "media",
+    "prompt": "¿Qué letra continúa la serie?<br><b>D, F, I, M, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "P",
+      "R",
+      "O",
+      "Q"
+    ],
+    "answer": 3,
+    "explanation": "Posiciones 4, 6, 9, 13: +2, +3, +4, +5. 13 + 5 = 18 → Q (en el alfabeto de 27 letras, P es 17 y Q es 18)."
+  },
+  {
+    "id": "l13",
+    "area": "logico",
+    "subtype": "series_letras",
+    "difficulty": "dificil",
+    "prompt": "¿Qué par de letras continúa la serie?<br><b>A, Z, C, X, E, V, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "G, U",
+      "F, T",
+      "H, S",
+      "G, T"
+    ],
+    "answer": 3,
+    "explanation": "Dos series intercaladas: A, C, E, ... avanza de 2 en 2 → G (7). Z, X, V, ... retrocede de 2 en 2 → posición 21 → T."
+  },
+  {
+    "id": "l14",
+    "area": "logico",
+    "subtype": "series_alfanumericas",
+    "difficulty": "facil",
+    "prompt": "¿Qué término continúa la serie?<br><b>A2, C4, E6, G8, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "H10",
+      "I9",
+      "J10",
+      "I10"
+    ],
+    "answer": 3,
+    "explanation": "Letras de 2 en 2 (A, C, E, G, I) y números pares (+2): I10."
+  },
+  {
+    "id": "l15",
+    "area": "logico",
+    "subtype": "series_alfanumericas",
+    "difficulty": "media",
+    "prompt": "¿Qué término continúa la serie?<br><b>1B, 4D, 9F, 16H, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "25I",
+      "20J",
+      "25J",
+      "36J"
+    ],
+    "answer": 2,
+    "explanation": "Números: cuadrados 1, 4, 9, 16, 25. Letras de 2 en 2: B, D, F, H, J. Resultado: 25J."
+  },
+  {
+    "id": "l16",
+    "area": "logico",
+    "subtype": "series_alfanumericas",
+    "difficulty": "media",
+    "prompt": "¿Qué término continúa la serie?<br><b>Z1, W3, S6, ...</b><br><i>(Considere el alfabeto español de 27 letras, incluida la Ñ.)</i>",
+    "options": [
+      "O10",
+      "N10",
+      "Ñ9",
+      "Ñ10"
+    ],
+    "answer": 3,
+    "explanation": "Letras: posiciones 27, 24, 20 (−3, −4) → 20 − 5 = 15 → Ñ. Números: 1, 3, 6 (+2, +3) → 6 + 4 = 10. Resultado: Ñ10."
+  },
+  {
+    "id": "l17",
+    "area": "logico",
+    "subtype": "silogismos",
+    "difficulty": "facil",
+    "prompt": "<b>Premisa 1:</b> Todos los operadores de camión tienen licencia de conducir categoría A-IIIc.<br><b>Premisa 2:</b> Julio es operador de camión.<br>¿Qué conclusión se deduce?",
+    "options": [
+      "Todos los que tienen licencia A-IIIc son operadores de camión.",
+      "Julio no tiene licencia A-IIIc.",
+      "Solo Julio tiene licencia A-IIIc.",
+      "Julio tiene licencia categoría A-IIIc."
+    ],
+    "answer": 3,
+    "explanation": "Si todos los operadores tienen esa licencia y Julio es operador, Julio la tiene. Las demás no se deducen de las premisas."
+  },
+  {
+    "id": "l18",
+    "area": "logico",
+    "subtype": "silogismos",
+    "difficulty": "facil",
+    "prompt": "<b>Premisa 1:</b> Ningún equipo en mantenimiento está operativo.<br><b>Premisa 2:</b> La pala P-03 está en mantenimiento.<br>¿Qué conclusión se deduce?",
+    "options": [
+      "La pala P-03 no está operativa.",
+      "La pala P-03 está operativa.",
+      "Todos los equipos no operativos están en mantenimiento.",
+      "Ninguna pala está operativa."
+    ],
+    "answer": 0,
+    "explanation": "Lo que está en mantenimiento no está operativo; P-03 está en mantenimiento, por tanto no está operativa."
+  },
+  {
+    "id": "l19",
+    "area": "logico",
+    "subtype": "silogismos",
+    "difficulty": "media",
+    "prompt": "<b>Premisa 1:</b> Todos los ingenieros de turno usan casco blanco.<br><b>Premisa 2:</b> Algunas personas que usan casco blanco son visitantes.<br>¿Qué conclusión se deduce <i>necesariamente</i>?",
+    "options": [
+      "Algunos ingenieros de turno son visitantes.",
+      "No se puede concluir nada seguro sobre la relación entre ingenieros y visitantes.",
+      "Ningún ingeniero de turno es visitante.",
+      "Todos los visitantes son ingenieros de turno."
+    ],
+    "answer": 1,
+    "explanation": "El término medio (usar casco blanco) no se distribuye en ninguna premisa: los visitantes con casco pueden o no coincidir con los ingenieros. Ninguna relación es necesaria."
+  },
+  {
+    "id": "l20",
+    "area": "logico",
+    "subtype": "silogismos",
+    "difficulty": "media",
+    "prompt": "<b>Premisa 1:</b> Todos los supervisores son ingenieros.<br><b>Premisa 2:</b> Algunos supervisores son geólogos.<br>¿Qué conclusión es válida?",
+    "options": [
+      "Todos los ingenieros son geólogos.",
+      "Algunos ingenieros son geólogos.",
+      "Todos los geólogos son supervisores.",
+      "Algunos ingenieros no son geólogos."
+    ],
+    "answer": 1,
+    "explanation": "Los supervisores que son geólogos también son ingenieros (premisa 1); por tanto, existen ingenieros que son geólogos."
+  },
+  {
+    "id": "l21",
+    "area": "logico",
+    "subtype": "silogismos",
+    "difficulty": "facil",
+    "prompt": "<b>Premisa 1:</b> Ningún practicante ejecuta voladuras.<br><b>Premisa 2:</b> Todos los becarios son practicantes.<br>¿Qué conclusión se deduce?",
+    "options": [
+      "Ningún becario ejecuta voladuras.",
+      "Algunos becarios ejecutan voladuras.",
+      "Todos los practicantes son becarios.",
+      "Solo los becarios no ejecutan voladuras."
+    ],
+    "answer": 0,
+    "explanation": "Los becarios están incluidos en los practicantes, y ningún practicante ejecuta voladuras; luego ningún becario lo hace."
+  },
+  {
+    "id": "l22",
+    "area": "logico",
+    "subtype": "silogismos",
+    "difficulty": "dificil",
+    "prompt": "<b>Premisa 1:</b> Todos los camiones autónomos tienen sensor LiDAR.<br><b>Premisa 2:</b> Ningún equipo de modelo antiguo tiene sensor LiDAR.<br>¿Qué conclusión es válida?",
+    "options": [
+      "Algunos equipos de modelo antiguo son camiones autónomos.",
+      "Todos los equipos con LiDAR son camiones autónomos.",
+      "Algunos camiones autónomos no tienen LiDAR.",
+      "No se puede concluir nada.",
+      "Ningún camión autónomo es un equipo de modelo antiguo."
+    ],
+    "answer": 4,
+    "explanation": "Si un camión autónomo fuera de modelo antiguo, tendría LiDAR (P1) y no lo tendría (P2): contradicción. Por tanto, ningún camión autónomo es de modelo antiguo."
+  },
+  {
+    "id": "l23",
+    "area": "logico",
+    "subtype": "ordenamiento",
+    "difficulty": "facil",
+    "prompt": "En un mes, la pala A cargó más toneladas que la pala B; la pala C cargó menos que la B; y la pala D cargó más que la A. ¿Qué pala cargó <b>menos</b> toneladas?",
+    "options": [
+      "Pala C",
+      "Pala B",
+      "Pala A",
+      "Pala D"
+    ],
+    "answer": 0,
+    "explanation": "Orden de mayor a menor: D > A > B > C. La que cargó menos es la C."
+  },
+  {
+    "id": "l24",
+    "area": "logico",
+    "subtype": "ordenamiento",
+    "difficulty": "media",
+    "prompt": "Cinco becarios se sientan en una fila de 5 asientos numerados del 1 (extremo izquierdo) al 5 (extremo derecho):<br>• Carla está en el asiento central.<br>• Ana está junto a Carla, a su izquierda.<br>• Beto está en el extremo derecho.<br>• Elsa no está junto a Beto.<br>¿Quién ocupa el asiento 1?",
+    "options": [
+      "Dante",
+      "Ana",
+      "Beto",
+      "Elsa"
+    ],
+    "answer": 3,
+    "explanation": "Carla = 3, Ana = 2, Beto = 5. Quedan 1 y 4 para Dante y Elsa. Elsa no puede estar en 4 (junto a Beto), así que Elsa = 1 y Dante = 4."
+  },
+  {
+    "id": "l25",
+    "area": "logico",
+    "subtype": "ordenamiento",
+    "difficulty": "facil",
+    "prompt": "En la evaluación de seguridad, Pablo obtuvo más puntos que Quispe pero menos que Ríos. Salas obtuvo menos que Quispe y Torres obtuvo más que Ríos. ¿Quién ocupó el <b>tercer lugar</b>?",
+    "options": [
+      "Quispe",
+      "Ríos",
+      "Torres",
+      "Pablo"
+    ],
+    "answer": 3,
+    "explanation": "Orden de mayor a menor: Torres > Ríos > Pablo > Quispe > Salas. Tercer lugar: Pablo."
+  },
+  {
+    "id": "l26",
+    "area": "logico",
+    "subtype": "ordenamiento",
+    "difficulty": "dificil",
+    "prompt": "Un edificio administrativo tiene 5 pisos (1 = el más bajo) y cada uno lo ocupa un área distinta: Logística, Seguridad, Mantenimiento, RRHH y Geología.<br>• Mantenimiento está en el piso 2.<br>• Logística está inmediatamente encima de Geología.<br>• Seguridad no está ni en el primer ni en el último piso.<br>• RRHH está en un piso más bajo que Seguridad.<br>¿Qué área está en el <b>piso 3</b>?",
+    "options": [
+      "Geología",
+      "Seguridad",
+      "RRHH",
+      "Logística"
+    ],
+    "answer": 1,
+    "explanation": "Geología–Logística deben ser pisos consecutivos sin usar el 2: (3,4) o (4,5). Si fueran 3 y 4, Seguridad quedaría en 1 o 5 (prohibido). Entonces Geología = 4, Logística = 5; quedan 1 y 3: Seguridad = 3 y RRHH = 1 (más bajo que Seguridad)."
+  },
+  {
+    "id": "l27",
+    "area": "logico",
+    "subtype": "ordenamiento",
+    "difficulty": "media",
+    "prompt": "Cinco operadores llegan a la charla de seguridad. Nora llegó antes que Luis, y Luis antes que Mario. Óscar llegó inmediatamente después de Mario. Pedro llegó después de Nora pero antes de Luis. ¿Quién llegó en <b>cuarto</b> lugar?",
+    "options": [
+      "Luis",
+      "Óscar",
+      "Pedro",
+      "Mario"
+    ],
+    "answer": 3,
+    "explanation": "Nora < Pedro < Luis < Mario, y Óscar justo después de Mario: Nora, Pedro, Luis, Mario, Óscar. Cuarto: Mario."
+  },
+  {
+    "id": "l28",
+    "area": "logico",
+    "subtype": "verdad_mentira_o_deduccion",
+    "difficulty": "media",
+    "prompt": "Se sabe que: «<i>Solo los trabajadores que aprobaron la inducción pueden ingresar al tajo.</i>» Rosa ingresó al tajo esta mañana. ¿Qué se deduce con certeza?",
+    "options": [
+      "Rosa es supervisora.",
+      "Rosa aprobó la inducción.",
+      "Todos los que aprobaron la inducción ingresaron al tajo.",
+      "Rosa no aprobó la inducción."
+    ],
+    "answer": 1,
+    "explanation": "«Solo los que aprobaron pueden ingresar» equivale a: si ingresa, entonces aprobó. Rosa ingresó, luego aprobó la inducción."
+  },
+  {
+    "id": "l29",
+    "area": "logico",
+    "subtype": "verdad_mentira_o_deduccion",
+    "difficulty": "facil",
+    "prompt": "Carlos es más alto que Diego. Diego es más alto que Eva. ¿Cuál afirmación es <b>necesariamente</b> verdadera?",
+    "options": [
+      "Carlos es más alto que Eva.",
+      "Eva es más alta que Carlos.",
+      "Diego es el más alto.",
+      "Eva y Carlos tienen la misma estatura."
+    ],
+    "answer": 0,
+    "explanation": "Por transitividad: Carlos > Diego > Eva, luego Carlos > Eva."
+  },
+  {
+    "id": "l30",
+    "area": "logico",
+    "subtype": "verdad_mentira_o_deduccion",
+    "difficulty": "media",
+    "prompt": "Uno de tres operadores (A, B o C) dejó encendido un equipo al terminar el turno. Al preguntarles:<br>• A: «Fue B».<br>• B: «Yo no fui».<br>• C: «Yo no fui».<br>Si <b>solo uno</b> dice la verdad, ¿quién dejó encendido el equipo?",
+    "options": [
+      "A",
+      "B",
+      "No se puede determinar",
+      "C"
+    ],
+    "answer": 3,
+    "explanation": "Si fue A: B y C dicen verdad (2). Si fue B: A y C dicen verdad (2). Si fue C: solo B dice verdad (1). Por tanto, fue C."
+  },
+  {
+    "id": "l31",
+    "area": "logico",
+    "subtype": "verdad_mentira_o_deduccion",
+    "difficulty": "dificil",
+    "prompt": "Una de cuatro personas (P, Q, R o S) movió una muestra del laboratorio sin registrarla. Declaran:<br>• P: «Fue Q».<br>• Q: «Fue S».<br>• R: «Yo no fui».<br>• S: «Q miente».<br>Si <b>solo una</b> persona miente, ¿quién movió la muestra?",
+    "options": [
+      "P",
+      "R",
+      "S",
+      "Q"
+    ],
+    "answer": 3,
+    "explanation": "Q y S se contradicen, así que el mentiroso es uno de ellos y P y R dicen la verdad. P dice la verdad → fue Q. Verificación: Q miente (no fue S), S dice verdad, R dice verdad. Exactamente un mentiroso."
+  },
+  {
+    "id": "l32",
+    "area": "logico",
+    "subtype": "verdad_mentira_o_deduccion",
+    "difficulty": "media",
+    "prompt": "Regla de la operación: «<i>Si un equipo aprueba la inspección pre-uso, entonces puede operar en el turno.</i>» El cargador CF-12 <b>no</b> puede operar en el turno. ¿Qué se deduce?",
+    "options": [
+      "El cargador CF-12 aprobó la inspección pre-uso.",
+      "Ningún cargador puede operar en el turno.",
+      "Si un equipo no aprueba la inspección, igual puede operar.",
+      "El cargador CF-12 está en mantenimiento correctivo.",
+      "El cargador CF-12 no aprobó la inspección pre-uso."
+    ],
+    "answer": 4,
+    "explanation": "Modus tollens: si p → q y no q, entonces no p. Como CF-12 no puede operar, no aprobó la inspección."
+  }
+]

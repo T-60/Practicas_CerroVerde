@@ -1,0 +1,874 @@
+[
+ {
+  "id": "v01",
+  "area": "verbal",
+  "subtype": "sinonimos",
+  "difficulty": "facil",
+  "prompt": "Señale el sinónimo de <b>PERENNE</b>.",
+  "options": [
+   "efímero",
+   "frágil",
+   "breve",
+   "variable",
+   "perpetuo"
+  ],
+  "answer": 4,
+  "explanation": "Perenne significa que dura siempre o de forma continua; su sinónimo es perpetuo."
+ },
+ {
+  "id": "v02",
+  "area": "verbal",
+  "subtype": "sinonimos",
+  "difficulty": "media",
+  "prompt": "Señale el sinónimo de <b>ACUCIOSO</b>.",
+  "options": [
+   "indolente",
+   "agresivo",
+   "ingenuo",
+   "ruidoso",
+   "diligente"
+  ],
+  "answer": 4,
+  "explanation": "Acucioso se aplica a quien actúa con diligencia, esmero y prontitud."
+ },
+ {
+  "id": "v03",
+  "area": "verbal",
+  "subtype": "sinonimos",
+  "difficulty": "facil",
+  "prompt": "Señale el sinónimo de <b>MITIGAR</b>.",
+  "options": [
+   "atenuar",
+   "agravar",
+   "ocultar",
+   "medir",
+   "provocar"
+  ],
+  "answer": 0,
+  "explanation": "Mitigar es moderar o disminuir la intensidad de algo, es decir, atenuar."
+ },
+ {
+  "id": "v04",
+  "area": "verbal",
+  "subtype": "sinonimos",
+  "difficulty": "media",
+  "prompt": "Señale el sinónimo de <b>EXIGUO</b>.",
+  "options": [
+   "abundante",
+   "extenso",
+   "sutil",
+   "escaso",
+   "ruidoso"
+  ],
+  "answer": 3,
+  "explanation": "Exiguo significa insuficiente o escaso."
+ },
+ {
+  "id": "v05",
+  "area": "verbal",
+  "subtype": "sinonimos",
+  "difficulty": "dificil",
+  "prompt": "Señale el sinónimo de <b>CONSPICUO</b>.",
+  "options": [
+   "oculto",
+   "mezquino",
+   "dudoso",
+   "torpe",
+   "sobresaliente"
+  ],
+  "answer": 4,
+  "explanation": "Conspicuo se dice de lo ilustre, visible o sobresaliente."
+ },
+ {
+  "id": "v06",
+  "area": "verbal",
+  "subtype": "antonimos",
+  "difficulty": "facil",
+  "prompt": "Señale el antónimo de <b>ESCASEZ</b>.",
+  "options": [
+   "carestía",
+   "penuria",
+   "abundancia",
+   "falta",
+   "pobreza"
+  ],
+  "answer": 2,
+  "explanation": "Escasez es falta de algo; su opuesto es abundancia. Las demás opciones son sinónimos."
+ },
+ {
+  "id": "v07",
+  "area": "verbal",
+  "subtype": "antonimos",
+  "difficulty": "media",
+  "prompt": "Señale el antónimo de <b>DILIGENTE</b>.",
+  "options": [
+   "hábil",
+   "presto",
+   "activo",
+   "negligente",
+   "atento"
+  ],
+  "answer": 3,
+  "explanation": "Diligente es quien actúa con cuidado y prontitud; lo contrario es negligente."
+ },
+ {
+  "id": "v08",
+  "area": "verbal",
+  "subtype": "antonimos",
+  "difficulty": "facil",
+  "prompt": "Señale el antónimo de <b>AUMENTAR</b>.",
+  "options": [
+   "ampliar",
+   "crecer",
+   "reducir",
+   "elevar",
+   "acrecentar"
+  ],
+  "answer": 2,
+  "explanation": "Aumentar es hacer mayor algo; su opuesto es reducir. Las demás son sinónimos."
+ },
+ {
+  "id": "v09",
+  "area": "verbal",
+  "subtype": "antonimos",
+  "difficulty": "media",
+  "prompt": "Señale el antónimo de <b>INOCUO</b>.",
+  "options": [
+   "inofensivo",
+   "leve",
+   "nocivo",
+   "benigno",
+   "sano"
+  ],
+  "answer": 2,
+  "explanation": "Inocuo significa que no hace daño; su antónimo es nocivo."
+ },
+ {
+  "id": "v10",
+  "area": "verbal",
+  "subtype": "antonimos",
+  "difficulty": "dificil",
+  "prompt": "Señale el antónimo de <b>PRÓDIGO</b>.",
+  "options": [
+   "mezquino",
+   "generoso",
+   "dadivoso",
+   "derrochador",
+   "espléndido"
+  ],
+  "answer": 0,
+  "explanation": "Pródigo es quien gasta o da sin medida; lo opuesto es mezquino (tacaño)."
+ },
+ {
+  "id": "v11",
+  "area": "verbal",
+  "subtype": "analogias",
+  "difficulty": "facil",
+  "prompt": "<b>CASCO : CABEZA ::</b>",
+  "options": [
+   "guantes : manos",
+   "lentes : montura",
+   "botas : suela",
+   "chaleco : bolsillo",
+   "overol : tela"
+  ],
+  "answer": 0,
+  "explanation": "El casco protege la cabeza, así como los guantes protegen las manos (relación protector–parte del cuerpo)."
+ },
+ {
+  "id": "v12",
+  "area": "verbal",
+  "subtype": "analogias",
+  "difficulty": "facil",
+  "prompt": "<b>MINERAL : CONCENTRADORA ::</b>",
+  "options": [
+   "harina : pan",
+   "trigo : molino",
+   "leche : vaca",
+   "agua : río",
+   "madera : bosque"
+  ],
+  "answer": 1,
+  "explanation": "El mineral es la materia prima que se procesa en la concentradora, como el trigo se procesa en el molino."
+ },
+ {
+  "id": "v13",
+  "area": "verbal",
+  "subtype": "analogias",
+  "difficulty": "media",
+  "prompt": "<b>TERMÓMETRO : TEMPERATURA ::</b>",
+  "options": [
+   "martillo : clavo",
+   "reloj : pulsera",
+   "regla : madera",
+   "manómetro : presión",
+   "microscopio : laboratorio"
+  ],
+  "answer": 3,
+  "explanation": "El termómetro mide la temperatura; el manómetro mide la presión (instrumento–magnitud que mide)."
+ },
+ {
+  "id": "v14",
+  "area": "verbal",
+  "subtype": "analogias",
+  "difficulty": "media",
+  "prompt": "<b>SEQUÍA : AGUA ::</b>",
+  "options": [
+   "inundación : lluvia",
+   "hambruna : alimento",
+   "incendio : fuego",
+   "frío : invierno",
+   "oscuridad : noche"
+  ],
+  "answer": 1,
+  "explanation": "La sequía es la carencia de agua, así como la hambruna es la carencia de alimento."
+ },
+ {
+  "id": "v15",
+  "area": "verbal",
+  "subtype": "analogias",
+  "difficulty": "dificil",
+  "prompt": "<b>ESCORIA : FUNDICIÓN ::</b>",
+  "options": [
+   "acero : horno",
+   "cobre : mina",
+   "aserrín : carpintería",
+   "pan : panadería",
+   "vino : bodega"
+  ],
+  "answer": 2,
+  "explanation": "La escoria es el residuo que deja la fundición, como el aserrín es el residuo del trabajo de carpintería."
+ },
+ {
+  "id": "v16",
+  "area": "verbal",
+  "subtype": "analogias",
+  "difficulty": "dificil",
+  "prompt": "<b>ARQUITECTO : PLANO ::</b>",
+  "options": [
+   "pintor : pincel",
+   "médico : hospital",
+   "escritor : editorial",
+   "cocinero : cocina",
+   "compositor : partitura"
+  ],
+  "answer": 4,
+  "explanation": "El arquitecto elabora planos, el compositor elabora partituras (autor–documento que crea para plasmar su obra)."
+ },
+ {
+  "id": "v17",
+  "area": "verbal",
+  "subtype": "oraciones_incompletas",
+  "difficulty": "facil",
+  "prompt": "Antes de ingresar a la zona de voladura, todo trabajador debe esperar la ________ del supervisor.",
+  "options": [
+   "autorización",
+   "reprimenda",
+   "indiferencia",
+   "ausencia",
+   "renuncia"
+  ],
+  "answer": 0,
+  "explanation": "En un contexto de seguridad, el ingreso a una zona de riesgo requiere la autorización del supervisor."
+ },
+ {
+  "id": "v18",
+  "area": "verbal",
+  "subtype": "oraciones_incompletas",
+  "difficulty": "media",
+  "prompt": "El informe fue tan ________ que, en solo una página, resumió los hallazgos de seis meses de monitoreo.",
+  "options": [
+   "extenso",
+   "ambiguo",
+   "redundante",
+   "conciso",
+   "confuso"
+  ],
+  "answer": 3,
+  "explanation": "Resumir mucha información en una página indica brevedad y precisión, es decir, un informe conciso."
+ },
+ {
+  "id": "v19",
+  "area": "verbal",
+  "subtype": "oraciones_incompletas",
+  "difficulty": "media",
+  "prompt": "La empresa invirtió en una planta de tratamiento para ________ el consumo de agua fresca y ________ el agua de proceso.",
+  "options": [
+   "aumentar – desechar",
+   "reducir – reutilizar",
+   "duplicar – contaminar",
+   "mantener – desperdiciar",
+   "ignorar – reciclar"
+  ],
+  "answer": 1,
+  "explanation": "Una planta de tratamiento busca reducir el uso de agua fresca y reutilizar el agua de proceso; es la única pareja coherente."
+ },
+ {
+  "id": "v20",
+  "area": "verbal",
+  "subtype": "oraciones_incompletas",
+  "difficulty": "facil",
+  "prompt": "A pesar de las ________ condiciones climáticas, la cuadrilla terminó el mantenimiento a tiempo.",
+  "options": [
+   "adversas",
+   "favorables",
+   "óptimas",
+   "ideales",
+   "apacibles"
+  ],
+  "answer": 0,
+  "explanation": "«A pesar de» introduce una dificultad; solo «adversas» expresa condiciones desfavorables."
+ },
+ {
+  "id": "v21",
+  "area": "verbal",
+  "subtype": "oraciones_incompletas",
+  "difficulty": "dificil",
+  "prompt": "Si bien la nueva tecnología ________ los costos operativos, su implementación ________ una capacitación intensiva del personal, lo que ________ su adopción inmediata.",
+  "options": [
+   "incrementa – evita – facilita",
+   "reduce – exige – dificulta",
+   "reduce – elimina – acelera",
+   "eleva – requiere – impide",
+   "mantiene – omite – favorece"
+  ],
+  "answer": 1,
+  "explanation": "«Si bien» plantea una ventaja (reduce costos) frente a una desventaja (exige capacitación), que a su vez dificulta la adopción inmediata."
+ },
+ {
+  "id": "v22",
+  "area": "verbal",
+  "subtype": "conectores",
+  "difficulty": "facil",
+  "prompt": "El equipo no superó la inspección; ________, fue retirado de operación.",
+  "options": [
+   "por consiguiente",
+   "sin embargo",
+   "aunque",
+   "además",
+   "en cambio"
+  ],
+  "answer": 0,
+  "explanation": "El retiro del equipo es consecuencia de no superar la inspección, por lo que se requiere un conector consecutivo."
+ },
+ {
+  "id": "v23",
+  "area": "verbal",
+  "subtype": "conectores",
+  "difficulty": "media",
+  "prompt": "________ el yacimiento tiene baja ley, su gran volumen lo hace económicamente viable.",
+  "options": [
+   "Porque",
+   "Si bien",
+   "Dado que",
+   "Por lo tanto",
+   "Así que"
+  ],
+  "answer": 1,
+  "explanation": "Se oponen una desventaja (baja ley) y una ventaja (gran volumen); «si bien» es el conector concesivo adecuado."
+ },
+ {
+  "id": "v24",
+  "area": "verbal",
+  "subtype": "conectores",
+  "difficulty": "media",
+  "prompt": "Los trabajadores recibieron capacitación en primeros auxilios; ________, se les entregó un manual de procedimientos.",
+  "options": [
+   "no obstante",
+   "por el contrario",
+   "aunque",
+   "asimismo",
+   "o sea"
+  ],
+  "answer": 3,
+  "explanation": "La segunda acción se suma a la primera, por lo que corresponde un conector aditivo como «asimismo»."
+ },
+ {
+  "id": "v25",
+  "area": "verbal",
+  "subtype": "conectores",
+  "difficulty": "dificil",
+  "prompt": "La presa cumple los estándares internacionales; ________, se realizan monitoreos diarios, ________ cualquier anomalía pueda detectarse a tiempo.",
+  "options": [
+   "por lo tanto – aunque",
+   "aun así – de modo que",
+   "es decir – porque",
+   "en cambio – sin que",
+   "además – pero"
+  ],
+  "answer": 1,
+  "explanation": "«Aun así» indica que, pese a cumplir estándares, se sigue monitoreando; «de modo que» expresa la finalidad de detectar anomalías."
+ },
+ {
+  "id": "v26",
+  "area": "verbal",
+  "subtype": "termino_excluido",
+  "difficulty": "facil",
+  "prompt": "Señale el término que no guarda relación con los demás.",
+  "options": [
+   "cobre",
+   "granito",
+   "molibdeno",
+   "plata",
+   "oro"
+  ],
+  "answer": 1,
+  "explanation": "Cobre, molibdeno, plata y oro son metales; el granito es una roca."
+ },
+ {
+  "id": "v27",
+  "area": "verbal",
+  "subtype": "termino_excluido",
+  "difficulty": "media",
+  "prompt": "Señale el término que no guarda relación con los demás.",
+  "options": [
+   "precaución",
+   "prudencia",
+   "cautela",
+   "cuidado",
+   "temeridad"
+  ],
+  "answer": 4,
+  "explanation": "Todos los términos aluden a actuar con cuidado, excepto temeridad, que es exposición imprudente al peligro."
+ },
+ {
+  "id": "v28",
+  "area": "verbal",
+  "subtype": "termino_excluido",
+  "difficulty": "dificil",
+  "prompt": "Señale el término que no guarda relación con los demás.",
+  "options": [
+   "lóbrego",
+   "sombrío",
+   "tenebroso",
+   "oscuro",
+   "diáfano"
+  ],
+  "answer": 4,
+  "explanation": "Lóbrego, sombrío, tenebroso y oscuro aluden a falta de luz; diáfano significa claro o transparente."
+ },
+ {
+  "id": "v29",
+  "area": "verbal",
+  "subtype": "comprension_lectora",
+  "difficulty": "media",
+  "prompt": "<p><i>En las zonas áridas del sur peruano, el agua es un recurso que condiciona tanto la agricultura como la industria. Por ello, algunas operaciones mineras han optado por tratar aguas residuales urbanas y emplearlas en sus procesos, en lugar de captar agua de ríos que también abastecen a los agricultores. Este enfoque tiene un doble beneficio: reduce la presión sobre las fuentes naturales y mejora la calidad del agua que retorna al ambiente, pues antes esos efluentes se vertían sin tratamiento. No obstante, los especialistas advierten que estas soluciones requieren inversiones elevadas y un monitoreo permanente para asegurar que los parámetros de calidad se cumplan de manera sostenida.</i></p>¿Cuál es la idea principal del texto?",
+  "options": [
+   "El tratamiento de aguas residuales urbanas para uso minero alivia la presión sobre las fuentes naturales, aunque exige inversión y control constante.",
+   "La agricultura es la principal consumidora de agua en el sur peruano.",
+   "Las operaciones mineras están obligadas por ley a dejar de usar agua de ríos.",
+   "Los efluentes urbanos no pueden ser tratados de manera eficaz.",
+   "El monitoreo de la calidad del agua es innecesario si la inversión es alta."
+  ],
+  "answer": 0,
+  "explanation": "El texto presenta el uso de aguas residuales tratadas, sus beneficios y sus exigencias (inversión y monitoreo); las demás opciones son parciales o contradicen el texto."
+ },
+ {
+  "id": "v30",
+  "area": "verbal",
+  "subtype": "comprension_lectora",
+  "difficulty": "dificil",
+  "prompt": "<p><i>En las zonas áridas del sur peruano, el agua es un recurso que condiciona tanto la agricultura como la industria. Por ello, algunas operaciones mineras han optado por tratar aguas residuales urbanas y emplearlas en sus procesos, en lugar de captar agua de ríos que también abastecen a los agricultores. Este enfoque tiene un doble beneficio: reduce la presión sobre las fuentes naturales y mejora la calidad del agua que retorna al ambiente, pues antes esos efluentes se vertían sin tratamiento. No obstante, los especialistas advierten que estas soluciones requieren inversiones elevadas y un monitoreo permanente para asegurar que los parámetros de calidad se cumplan de manera sostenida.</i></p>Del texto se infiere que, antes de aplicarse este enfoque,",
+  "options": [
+   "la minería no requería agua para sus procesos.",
+   "los agricultores utilizaban aguas residuales tratadas.",
+   "los efluentes urbanos afectaban el ambiente al verterse sin tratamiento.",
+   "los ríos de la zona tenían un caudal abundante.",
+   "el monitoreo de la calidad del agua era permanente."
+  ],
+  "answer": 2,
+  "explanation": "El texto afirma que el enfoque «mejora la calidad del agua» porque antes los efluentes se vertían sin tratamiento, lo que implica un impacto ambiental previo."
+ },
+ {
+  "id": "v31",
+  "area": "verbal",
+  "subtype": "comprension_lectora",
+  "difficulty": "facil",
+  "prompt": "<p><i>La fatiga es uno de los factores de riesgo menos visibles en la operación de grandes camiones mineros. Un operador cansado puede tardar más en reaccionar o incluso quedarse dormido unos segundos, tiempo suficiente para provocar un accidente grave. Para enfrentar este problema, varias empresas han instalado sistemas que, mediante cámaras en la cabina, detectan el parpadeo prolongado o la inclinación de la cabeza y emiten alertas sonoras y vibraciones en el asiento. Sin embargo, la tecnología no sustituye la gestión adecuada de turnos ni el descanso efectivo. Los expertos coinciden en que el dispositivo es una barrera adicional, no la solución de fondo.</i></p>Según el texto, ¿cuál es la función de los sistemas instalados en la cabina?",
+  "options": [
+   "Controlar automáticamente la velocidad del camión.",
+   "Reemplazar al operador en los turnos nocturnos.",
+   "Detectar signos de somnolencia y alertar al operador.",
+   "Programar los turnos de trabajo del personal.",
+   "Grabar los accidentes para su posterior investigación."
+  ],
+  "answer": 2,
+  "explanation": "El texto indica que las cámaras detectan parpadeo prolongado o inclinación de la cabeza y emiten alertas sonoras y vibraciones."
+ },
+ {
+  "id": "v32",
+  "area": "verbal",
+  "subtype": "comprension_lectora",
+  "difficulty": "media",
+  "prompt": "<p><i>La fatiga es uno de los factores de riesgo menos visibles en la operación de grandes camiones mineros. Un operador cansado puede tardar más en reaccionar o incluso quedarse dormido unos segundos, tiempo suficiente para provocar un accidente grave. Para enfrentar este problema, varias empresas han instalado sistemas que, mediante cámaras en la cabina, detectan el parpadeo prolongado o la inclinación de la cabeza y emiten alertas sonoras y vibraciones en el asiento. Sin embargo, la tecnología no sustituye la gestión adecuada de turnos ni el descanso efectivo. Los expertos coinciden en que el dispositivo es una barrera adicional, no la solución de fondo.</i></p>¿Con cuál de las siguientes afirmaciones estaría de acuerdo el autor?",
+  "options": [
+   "La tecnología elimina por completo el riesgo asociado a la fatiga.",
+   "La fatiga es el riesgo más visible en la operación minera.",
+   "Los operadores cansados reaccionan más rápido ante emergencias.",
+   "Los sistemas de detección deben complementarse con una buena gestión de turnos y descanso.",
+   "Las alertas sonoras resultan inútiles para prevenir accidentes."
+  ],
+  "answer": 3,
+  "explanation": "El autor sostiene que el dispositivo es una barrera adicional que no sustituye la gestión de turnos ni el descanso."
+ },
+ {
+  "id": "i01",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "facil",
+  "prompt": "Choose the correct option:<br><b>She works as ___ engineer at a copper mine.</b>",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "Ø (no article)"
+  ],
+  "answer": 2,
+  "explanation": "Se usa «an» antes de palabras que empiezan con sonido vocálico, como «engineer»."
+ },
+ {
+  "id": "i02",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "facil",
+  "prompt": "Choose the correct option:<br><b>___ Andes are the longest continental mountain range in the world.</b>",
+  "options": [
+   "The",
+   "A",
+   "An",
+   "Ø (no article)"
+  ],
+  "answer": 0,
+  "explanation": "Las cordilleras (nombres de cadenas montañosas en plural) llevan el artículo definido «the»."
+ },
+ {
+  "id": "i03",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "facil",
+  "prompt": "Choose the correct option:<br><b>Every morning, the supervisor ___ the safety checklist before the shift starts.</b>",
+  "options": [
+   "review",
+   "reviews",
+   "reviewing",
+   "have reviewed"
+  ],
+  "answer": 1,
+  "explanation": "Para rutinas se usa el presente simple; con sujeto en tercera persona singular el verbo lleva «-s»."
+ },
+ {
+  "id": "i04",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "media",
+  "prompt": "Choose the correct option:<br><b>The plant ___ since 2015 without a major accident.</b>",
+  "options": [
+   "has operated",
+   "operates",
+   "is operating",
+   "operated"
+  ],
+  "answer": 0,
+  "explanation": "«Since» con un punto de inicio que llega hasta el presente exige el presente perfecto."
+ },
+ {
+  "id": "i05",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "media",
+  "prompt": "Choose the correct option:<br><b>While the technicians ___ the conveyor belt, the power suddenly went out.</b>",
+  "options": [
+   "are repairing",
+   "were repairing",
+   "repair",
+   "have repaired"
+  ],
+  "answer": 1,
+  "explanation": "Una acción en progreso en el pasado interrumpida por otra se expresa con el pasado continuo."
+ },
+ {
+  "id": "i06",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "facil",
+  "prompt": "Choose the correct option:<br><b>The meeting is scheduled ___ Monday ___ 8 a.m.</b>",
+  "options": [
+   "in – on",
+   "at – in",
+   "on – at",
+   "on – in"
+  ],
+  "answer": 2,
+  "explanation": "Se usa «on» con días de la semana y «at» con horas exactas."
+ },
+ {
+  "id": "i07",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "media",
+  "prompt": "Choose the correct option:<br><b>The new procedure is very different ___ the old one.</b>",
+  "options": [
+   "of",
+   "at",
+   "with",
+   "from"
+  ],
+  "answer": 3,
+  "explanation": "La forma estándar es «different from»."
+ },
+ {
+  "id": "i08",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "media",
+  "prompt": "Choose the correct option:<br><b>If the sensor detects high temperatures, the system ___ automatically.</b>",
+  "options": [
+   "would shut down",
+   "shut down",
+   "shuts down",
+   "had shut down"
+  ],
+  "answer": 2,
+  "explanation": "Es un condicional cero (hecho general): «if» + presente simple, presente simple en la otra cláusula."
+ },
+ {
+  "id": "i09",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "dificil",
+  "prompt": "Choose the correct option:<br><b>If the operator ___ the warning, the accident would not have happened.</b>",
+  "options": [
+   "followed",
+   "had followed",
+   "has followed",
+   "would follow"
+  ],
+  "answer": 1,
+  "explanation": "El tercer condicional (situación pasada irreal) usa «if» + pasado perfecto y «would have» + participio."
+ },
+ {
+  "id": "i10",
+  "area": "ingles",
+  "subtype": "gramatica",
+  "difficulty": "dificil",
+  "prompt": "Choose the correct option:<br><b>The deeper the pit gets, ___ it becomes to transport the ore.</b>",
+  "options": [
+   "more expensive",
+   "the more expensive",
+   "the most expensive",
+   "most expensive"
+  ],
+  "answer": 1,
+  "explanation": "La estructura comparativa doble es «the + comparativo…, the + comparativo»."
+ },
+ {
+  "id": "i11",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "facil",
+  "prompt": "A <b>helmet</b> is used to protect your:",
+  "options": [
+   "hands",
+   "feet",
+   "eyes",
+   "head"
+  ],
+  "answer": 3,
+  "explanation": "«Helmet» es casco, que protege la cabeza."
+ },
+ {
+  "id": "i12",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "facil",
+  "prompt": "Choose the opposite of <b>safe</b>:",
+  "options": [
+   "dangerous",
+   "secure",
+   "careful",
+   "protected"
+  ],
+  "answer": 0,
+  "explanation": "«Safe» significa seguro; su opuesto es «dangerous» (peligroso)."
+ },
+ {
+  "id": "i13",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "media",
+  "prompt": "Which word means <i>a machine that breaks large rocks into smaller pieces</i>?",
+  "options": [
+   "conveyor",
+   "drill",
+   "pump",
+   "crusher"
+  ],
+  "answer": 3,
+  "explanation": "«Crusher» es la chancadora o trituradora."
+ },
+ {
+  "id": "i14",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "media",
+  "prompt": "Workers must wear <b>goggles</b> in this area. Goggles protect the:",
+  "options": [
+   "ears",
+   "lungs",
+   "knees",
+   "eyes"
+  ],
+  "answer": 3,
+  "explanation": "«Goggles» son gafas o lentes de protección para los ojos."
+ },
+ {
+  "id": "i15",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "media",
+  "prompt": "Choose the word closest in meaning to <b>shortage</b>:<br><i>There is a water shortage in the region.</i>",
+  "options": [
+   "excess",
+   "flood",
+   "lack",
+   "quality"
+  ],
+  "answer": 2,
+  "explanation": "«Shortage» significa escasez, es decir, «lack» (falta)."
+ },
+ {
+  "id": "i16",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "dificil",
+  "prompt": "Maintenance report: <i>“The pump failed due to excessive <b>wear</b>.”</i> In this sentence, <b>wear</b> means:",
+  "options": [
+   "clothing used for work",
+   "a type of lubricant",
+   "an electrical overload",
+   "gradual damage caused by use and friction"
+  ],
+  "answer": 3,
+  "explanation": "En contexto técnico, «wear» es el desgaste progresivo por uso y fricción."
+ },
+ {
+  "id": "i17",
+  "area": "ingles",
+  "subtype": "vocabulario",
+  "difficulty": "facil",
+  "prompt": "A <b>conveyor belt</b> is used to:",
+  "options": [
+   "move materials from one place to another",
+   "measure the temperature",
+   "drill holes in rock",
+   "store water"
+  ],
+  "answer": 0,
+  "explanation": "La faja transportadora («conveyor belt») traslada materiales de un punto a otro."
+ },
+ {
+  "id": "i18",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "facil",
+  "prompt": "<p><i><b>SAFETY NOTICE</b><br>Starting next Monday, all visitors to the concentrator plant must complete a 30-minute safety induction before entering the operational area. The induction will be held at the training center every day at 7:00 a.m. and 2:00 p.m. Visitors must bring a valid ID and wear safety boots; helmets, glasses and reflective vests will be provided at the entrance. Anyone who arrives late will have to wait for the next session. For more information, contact the Safety Department at extension 2045.</i></p>How long is the safety induction?",
+  "options": [
+   "30 minutes",
+   "2 hours",
+   "7 hours",
+   "45 minutes"
+  ],
+  "answer": 0,
+  "explanation": "El aviso indica «a 30-minute safety induction»."
+ },
+ {
+  "id": "i19",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "facil",
+  "prompt": "<p><i><b>SAFETY NOTICE</b><br>Starting next Monday, all visitors to the concentrator plant must complete a 30-minute safety induction before entering the operational area. The induction will be held at the training center every day at 7:00 a.m. and 2:00 p.m. Visitors must bring a valid ID and wear safety boots; helmets, glasses and reflective vests will be provided at the entrance. Anyone who arrives late will have to wait for the next session. For more information, contact the Safety Department at extension 2045.</i></p>What must visitors bring or wear themselves?",
+  "options": [
+   "A helmet and safety glasses",
+   "A valid ID and safety boots",
+   "A reflective vest",
+   "Nothing; everything is provided"
+  ],
+  "answer": 1,
+  "explanation": "El texto dice que deben traer un documento válido y usar botas de seguridad; casco, lentes y chaleco se entregan en la entrada."
+ },
+ {
+  "id": "i20",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "media",
+  "prompt": "<p><i><b>SAFETY NOTICE</b><br>Starting next Monday, all visitors to the concentrator plant must complete a 30-minute safety induction before entering the operational area. The induction will be held at the training center every day at 7:00 a.m. and 2:00 p.m. Visitors must bring a valid ID and wear safety boots; helmets, glasses and reflective vests will be provided at the entrance. Anyone who arrives late will have to wait for the next session. For more information, contact the Safety Department at extension 2045.</i></p>What happens if a visitor arrives late to the 7:00 a.m. session?",
+  "options": [
+   "They can join the session already in progress.",
+   "They cannot visit the plant that week.",
+   "They must call extension 2045 to enter.",
+   "They must wait for the 2:00 p.m. session."
+  ],
+  "answer": 3,
+  "explanation": "Quien llega tarde debe esperar la siguiente sesión, que es la de las 2:00 p.m."
+ },
+ {
+  "id": "i21",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "media",
+  "prompt": "<p><i><b>SAFETY NOTICE</b><br>Starting next Monday, all visitors to the concentrator plant must complete a 30-minute safety induction before entering the operational area. The induction will be held at the training center every day at 7:00 a.m. and 2:00 p.m. Visitors must bring a valid ID and wear safety boots; helmets, glasses and reflective vests will be provided at the entrance. Anyone who arrives late will have to wait for the next session. For more information, contact the Safety Department at extension 2045.</i></p>In the notice, the word <b>provided</b> is closest in meaning to:",
+  "options": [
+   "required",
+   "removed",
+   "supplied",
+   "checked"
+  ],
+  "answer": 2,
+  "explanation": "«Will be provided» significa que serán entregados o suministrados («supplied»)."
+ },
+ {
+  "id": "i22",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "media",
+  "prompt": "<p><i>Water recycling has become a priority for many mining companies operating in dry regions. In a typical copper concentrator, large amounts of water are needed to separate valuable minerals from waste rock. After this process, the water is sent to thickeners, where solid particles settle at the bottom. The clear water at the top is then pumped back to the plant and reused. Thanks to this system, some operations recover more than 80% of the water they use. However, recycling alone is not enough; companies must also reduce losses caused by evaporation and leaks.</i></p>What is the main purpose of the thickeners?",
+  "options": [
+   "To separate solid particles from the water",
+   "To evaporate the water",
+   "To crush the waste rock",
+   "To pump fresh water from rivers"
+  ],
+  "answer": 0,
+  "explanation": "En los espesadores los sólidos se asientan en el fondo y el agua clara se recupera, es decir, separan sólidos del agua."
+ },
+ {
+  "id": "i23",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "media",
+  "prompt": "<p><i>Water recycling has become a priority for many mining companies operating in dry regions. In a typical copper concentrator, large amounts of water are needed to separate valuable minerals from waste rock. After this process, the water is sent to thickeners, where solid particles settle at the bottom. The clear water at the top is then pumped back to the plant and reused. Thanks to this system, some operations recover more than 80% of the water they use. However, recycling alone is not enough; companies must also reduce losses caused by evaporation and leaks.</i></p>According to the text, which statement is TRUE?",
+  "options": [
+   "All the water used in the process is recovered.",
+   "Evaporation helps companies recover more water.",
+   "Some operations recover more than 80% of the water they use.",
+   "Water recycling is only important in wet regions."
+  ],
+  "answer": 2,
+  "explanation": "El texto afirma que algunas operaciones recuperan más del 80% del agua que usan."
+ },
+ {
+  "id": "i24",
+  "area": "ingles",
+  "subtype": "comprension",
+  "difficulty": "dificil",
+  "prompt": "<p><i>Water recycling has become a priority for many mining companies operating in dry regions. In a typical copper concentrator, large amounts of water are needed to separate valuable minerals from waste rock. After this process, the water is sent to thickeners, where solid particles settle at the bottom. The clear water at the top is then pumped back to the plant and reused. Thanks to this system, some operations recover more than 80% of the water they use. However, recycling alone is not enough; companies must also reduce losses caused by evaporation and leaks.</i></p>What can be inferred from the last sentence?",
+  "options": [
+   "Water recycling is not useful for mining companies.",
+   "Even with recycling, some water is still lost.",
+   "Leaks are the only cause of water loss.",
+   "Evaporation does not affect mining operations."
+  ],
+  "answer": 1,
+  "explanation": "Al decir que reciclar «no es suficiente» y que hay pérdidas por evaporación y fugas, se infiere que parte del agua se pierde pese al reciclaje."
+ }
+]
